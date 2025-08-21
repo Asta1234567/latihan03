@@ -6,65 +6,54 @@
     <title>Struktur HTML & CSS Flex</title>
     <style>
       body {
-        font-family: sans-serif;
-        margin: 20px;
-      }
+        font-family:"Times New Roman";
+        margin: 20px;}
 
-      .container {
-        display: flex;
-        flex-direction: column; /* Susun item secara vertikal secara default */
-      }
+      .container 
+      	{display: flex;
+        flex-direction: column;}
 
-      .header {
-        border: black 2px solid;
+      .header 
+      	{border: gray 2px solid;
         border-radius: 10px;
-        background-color: #ffe0e0;
+        background-color: #93CCED;
         padding: 20px;
         text-align: center;
-        margin-bottom: 10px;
-      }
+        margin-bottom: 20px;}
 
-      .main-content {
-        display: flex;
-        gap: 10px; /* Jarak antar item flex */
-        margin-bottom: 10px;
-      }
-
-      .navigation {
-        background-color: #e0ffe0;
-        padding: 15px;
-        width: 200px;
-      }
-
-      .articles {
-        display: flex;
-        flex-direction: column; /* Susun artikel secara vertikal */
+      .main-content {display: flex;
         gap: 10px;
-        flex-grow: 1; /* Membuat area artikel mengisi ruang yang tersedia */
-        background-color: #080808;
-      }
+        margin-bottom: 10px;}
 
-      .article {
-        background-color: #fff0e0;
+      .navigation 
+      	{background-color: #B3D5E6;
+        padding: 18px;
+        width: 200px;}
+
+      .articles 
+      	{display: flex;
+        flex-direction: column;
+        gap: 10px;
+        flex-grow: 1;
+        background-color: #91AEBD;}
+
+      .article 
+      	{background-color: #fff0e0;
+        padding: 15px;}
+
+      .footer 
+      	{border: gray 2px solid;
+        background-color: #93CCED;
         padding: 15px;
-      }
+        text-align: center;}
 
-      .footer {
-        background-color: #ffe0e0;
-        border-color: aqua;
-        padding: 15px;
-        text-align: center;
-      }
-
-      .navigation ul {
-        list-style: none;
+      .navigation ul 
+      	{list-style: none;
         padding: 0;
-        margin: 0;
-      }
+        margin: 0;}
 
-      .navigation li {
-        margin-bottom: 5px;
-      }
+      .navigation li 
+      {margin-bottom: 5px;}
     </style>
   </head>
   <body>
@@ -81,15 +70,15 @@
         <div class="articles">
           <article class="article">
             <h3>Article 1</h3>
-            <p>Konten artikel pertama...</p>
+            <p>Konten artikel pertama...Properti flex-grow pada CSS digunakan untuk mengatur bagaimana sebuah elemen fleksibel (flex item) dalam sebuah container fleksibel (flex container) akan tumbuh untuk mengisi ruang yang tersisa. Secara sederhana, flex-grow menentukan proporsi elemen tersebut dalam memanfaatkan ruang kosong di dalam container. </p>
           </article>
           <article class="article">
             <h3>Article 2</h3>
-            <p>Konten artikel kedua...</p>
+            <p>Konten artikel kedua...Properti flex-grow pada CSS digunakan untuk mengatur bagaimana sebuah elemen fleksibel (flex item) dalam sebuah container fleksibel (flex container) akan tumbuh untuk mengisi ruang yang tersisa. Secara sederhana, flex-grow menentukan proporsi elemen tersebut dalam memanfaatkan ruang kosong di dalam container.</p>
           </article>
           <article class="article">
             <h3>Article 3</h3>
-            <p>Konten artikel ketiga...</p>
+            <p>Konten artikel ketiga...Properti flex-grow pada CSS digunakan untuk mengatur bagaimana sebuah elemen fleksibel (flex item) dalam sebuah container fleksibel (flex container) akan tumbuh untuk mengisi ruang yang tersisa. Secara sederhana, flex-grow menentukan proporsi elemen tersebut dalam memanfaatkan ruang kosong di dalam container.</p>
           </article>
         </div>
       </div>
